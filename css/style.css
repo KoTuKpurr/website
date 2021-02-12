@@ -1,0 +1,133 @@
+:root{
+	--bg-color: black;
+	--text-color: rgb(247, 90, 186);
+}
+
+body
+{
+    background-color: var(--bg-color);
+	color: var(--text-color);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+}
+.about-me {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.bg-nav{
+	background-color: rgb(247, 90, 186);
+}
+
+a {
+	color: black;
+}
+
+.img-border{
+	border: 10px double rgb(247, 90, 186);
+}
+
+.sister-border{
+	border: 3px solid rgb(247, 90, 186);
+}
+
+.navbar-light{
+	font-weight: 800;
+}
+
+.carousel{
+	margin-top: 25px;
+	margin-left: 100px;
+	height: 350px;
+	width: 750px;
+	margin-bottom: 100px;
+}
+
+.carousel-control-prev{
+	padding-top: 400px;
+}
+
+.carousel-control-next{
+	padding-top: 400px;
+}
+
+.main-cat{
+	margin: 0 auto;
+}
+
+.main-cat h1 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.col-6 h1{
+	font-size: 100px;
+}
+
+.col-6 h2{
+	text-align: center;
+}
+
+.col-6 p{
+	font-size: 25px;
+}
+
+.edison{
+	margin-left: 400px;
+}
+
+a:link{
+	color: var(--text-color);
+    text-decoration: none;
+}
+a:visited{
+	color: var(--text-color);
+    text-decoration: none;
+}
+a:hover{
+	color: var(--text-color);
+    text-decoration: none;
+}
+a:active{
+	color: var(--text-color);
+    text-decoration: none;
+}
+
+.icons a:link{	color: var(--text-color);
+    text-decoration: none;
+}
+.icons a:visited{
+	color: var(--text-color);
+    text-decoration: none;
+}
+.icons a:hover{
+	color: rgb(255, 0, 157);
+    text-decoration: none;
+}
+.icons a:active{
+	color: var(--text-color);
+    text-decoration: none;
+}
+
+.customers-wrap {
+    margin-bottom: 90px;
+}
+
+.anime{
+	font-size: 25px;
+	text-align: center;
+}
+
+.title{
+	margin-top: 15px;
+	text-align: center;
+	border: 10px dotted rgb(247, 90, 186);
+}
+
+.col-6 .sister-title{
+	font-size: 75px;
+}
+
+.sis-img{
+	margin-top: 50px;
+}
